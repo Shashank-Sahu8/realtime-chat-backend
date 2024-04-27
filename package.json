@@ -1,0 +1,28 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "A realtime chat app backend using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/index.js",
+    "dev":"nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shashank-Sahu8/realtime-chat-backend.git"
+  },
+  "author": "Shashank Sahu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shashank-Sahu8/realtime-chat-backend/issues"
+  },
+  "homepage": "https://github.com/Shashank-Sahu8/realtime-chat-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5"
+  }
+}
